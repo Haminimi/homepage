@@ -331,3 +331,86 @@ footer > #image-container {
 	width: 60%;
 	border-radius: 10px;
 }
+
+@media only screen and (max-width: 1200px) {
+	header {
+		padding-top: 150px;
+		height: 110vh;
+	}
+
+	header > #introduction {
+		width: 80%;
+		height: auto;
+		gap: 20px;
+	}
+
+	#introduction-content {
+		gap: 0px;
+		padding: 30px;
+		display: block;
+	}
+
+	#introduction-content > #wrapper {
+		display: block;
+		gap: 0px;
+		width: 100%;
+	}
+
+	#introduction-content > #header-image-wrapper {
+		width: 400px;
+	}
+
+	#introduction-content > #header-image-wrapper > #header-image-container {
+		float: left;
+		transform: translate(-20%, -35%);
+		margin-right: -60px;
+		margin-bottom: -145px;
+	}
+
+	#introduction-content
+		> #header-image-wrapper
+		> #header-image-container
+		> picture
+		> img {
+		box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+	}
+
+	#introduction-content
+		> #header-image-wrapper
+		> #header-image-container
+		> #name-wrapper {
+		top: 0px;
+		transform: translate(35%, -5%);
+	}
+
+	#introduction-content
+		> #header-image-wrapper
+		> #header-image-container
+		> #name-wrapper
+		> #name {
+		font-size: 80px;
+		width: 200%;
+	}
+
+	#introduction > #introduction-content > #wrapper > #header-content {
+		font-size: 27px;
+	}
+
+	#links {
+		display: none;
+	}
+
+	footer {
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	footer > #content {
+		justify-content: center;
+		gap: 50px;
+	}
+
+	footer > #image-container {
+		width: 40%;
+	}
+}
