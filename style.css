@@ -49,3 +49,128 @@ h6 {
 	font-size: 16px;
 	color: #101820;
 }
+
+body {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	min-height: 100vh;
+	background: rgb(255, 255, 255);
+	background: linear-gradient(
+		350deg,
+		rgba(255, 255, 255, 1) 30%,
+		rgba(32, 112, 177, 1) 30.15%
+	);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header > #introduction {
+	display: flex;
+	width: 85%;
+	background-color: white;
+	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.5);
+	align-items: center;
+	height: 400px;
+}
+
+#introduction-content {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#introduction-content > #wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding: 30px;
+}
+
+#wrapper > #header {
+	font-size: 55px;
+	font-family: 'Playfair Display', serif;
+}
+
+#introduction-content > #header-image-wrapper {
+	position: relative;
+	border-radius: 10px;
+}
+
+#introduction-content > #header-image-wrapper > #header-image-container {
+	width: 450px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+#introduction-content
+	> #header-image-wrapper
+	> #header-image-container
+	> picture
+	> img {
+	border-radius: 10px;
+}
+
+#introduction-content
+	> #header-image-wrapper
+	> #header-image-container
+	> #name-wrapper {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 100%;
+}
+
+#introduction-content
+	> #header-image-wrapper
+	> #header-image-container
+	> #name-wrapper
+	> #name {
+	color: white;
+	font-size: 45px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+#introduction > #introduction-content > #header {
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+}
+
+#introduction > #introduction-content > #wrapper > #header-content {
+	font-size: 22px;
+	color: darkslategray;
+	min-height: 100%;
+}
+
+#links {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	gap: 20px;
+	align-items: center;
+}
+
+.icon {
+	font-size: 30px;
+	cursor: pointer;
+	color: #101820;
+	transition: transform 0.1s linear;
+	user-select: none;
+}
+
+.icon:hover {
+	color: slategray;
+}
+
+.icon:active {
+	transform: scale(0.9);
+}
+
+.devicon-twitter-original {
+	font-size: 25px;
+}
