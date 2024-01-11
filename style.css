@@ -84,11 +84,22 @@ header > #introduction {
 	align-items: center;
 }
 
+#introduction > #introduction-content > #header {
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+}
+
 #introduction-content > #wrapper {
 	display: flex;
 	flex-direction: column;
 	gap: 30px;
 	padding: 30px;
+}
+
+#introduction > #introduction-content > #wrapper > #header-content {
+	font-size: 22px;
+	color: darkslategray;
+	min-height: 100%;
 }
 
 #wrapper > #header {
@@ -134,17 +145,6 @@ header > #introduction {
 	font-size: 45px;
 	font-family: 'Playfair Display', serif;
 	text-align: center;
-}
-
-#introduction > #introduction-content > #header {
-	font-size: 40px;
-	font-family: 'Playfair Display', serif;
-}
-
-#introduction > #introduction-content > #wrapper > #header-content {
-	font-size: 22px;
-	color: darkslategray;
-	min-height: 100%;
 }
 
 #links {
@@ -253,10 +253,6 @@ main {
 	font-size: 35px;
 }
 
-#first-project {
-	position: relative;
-}
-
 #projects-header {
 	font-size: 40px;
 	font-family: 'Playfair Display', serif;
@@ -356,6 +352,10 @@ footer > #image-container {
 		width: 100%;
 	}
 
+	#introduction > #introduction-content > #wrapper > #header-content {
+		font-size: 27px;
+	}
+
 	#introduction-content > #header-image-wrapper {
 		width: 400px;
 	}
@@ -390,10 +390,6 @@ footer > #image-container {
 		> #name {
 		font-size: 80px;
 		width: 200%;
-	}
-
-	#introduction > #introduction-content > #wrapper > #header-content {
-		font-size: 27px;
 	}
 
 	#links {
@@ -432,17 +428,10 @@ footer > #image-container {
 	}
 
 	#introduction-content {
+		padding: 0px;
+		display: flex;
+		flex-direction: column;
 		gap: 30px;
-	}
-
-	main {
-		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
-		padding: 20px;
-		padding-bottom: 50px;
-	}
-
-	#projects-header {
-		padding-left: 20px;
 	}
 
 	#introduction-content > #wrapper {
@@ -452,19 +441,18 @@ footer > #image-container {
 		height: auto;
 	}
 
-	#introduction-content {
-		padding: 0px;
-		display: flex;
-		flex-direction: column;
+	#introduction > #introduction-content > #wrapper > #header {
+		font-size: 50px;
+		line-height: 40px;
+		text-align: center;
 	}
 
 	#introduction > #introduction-content > #wrapper > #header-content {
 		font-size: 24px;
 	}
 
-	#links {
-		display: flex;
-		justify-content: center;
+	#introduction-content > #header-image-wrapper {
+		width: 100%;
 	}
 
 	#introduction-content > #header-image-wrapper > #header-image-container {
@@ -473,10 +461,6 @@ footer > #image-container {
 		margin-right: 0px;
 		margin-bottom: 0px;
 		position: relative;
-		width: 100%;
-	}
-
-	#introduction-content > #header-image-wrapper {
 		width: 100%;
 	}
 
@@ -497,10 +481,19 @@ footer > #image-container {
 		width: 100%;
 	}
 
-	#introduction > #introduction-content > #wrapper > #header {
-		font-size: 50px;
-		line-height: 40px;
-		text-align: center;
+	#links {
+		display: flex;
+		justify-content: center;
+	}
+
+	main {
+		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+		padding: 20px;
+		padding-bottom: 50px;
+	}
+
+	#projects-header {
+		padding-left: 20px;
 	}
 
 	footer {
