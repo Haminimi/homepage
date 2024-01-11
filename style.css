@@ -281,3 +281,53 @@ main {
 #sixth-project-image {
 	background-color: cornflowerblue;
 }
+
+footer {
+	background-color: rgb(32, 112, 177);
+	height: 80vh;
+	width: 100%;
+	color: white;
+	padding: 40px;
+	display: flex;
+	gap: 30px;
+}
+
+footer > #content {
+	height: 100%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	font-size: 22px;
+}
+
+footer > #content > #header {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+}
+
+footer > #content > #content > #phone-container,
+footer > #content > #content > #mail-container {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+footer > #content > #content > #mail-container {
+	margin-top: -25px;
+}
+
+footer > #content > #links {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.footer-icon:hover {
+	color: ghostwhite;
+}
+
+footer > #image-container {
+	overflow: hidden;
+	width: 60%;
+	border-radius: 10px;
+}
