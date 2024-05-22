@@ -2,8 +2,7 @@
 ![Screenshot of the Homepage.](/screenshot.png)
 ## Description
 The responsive homepage of a portfolio site designed to be responsive across three sizes: full desktop, tablet and mobile. [The project](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage) is a part of [The Odin Project](https://www.theodinproject.com/dashboard)'s curriculum. The Odin Project provides a high quality web development education maintained by an open source community.
-## Live Preview
-[The Homepage](https://haminimi.github.io/homepage/).
+## [Live Preview](https://haminimi.github.io/homepage/)
 ## Main Features
 - **Responsive Design:** The homepage is designed and built to be responsive across three sizes: full desktop, tablet and mobile.
 - **Accessibility:** The page is fully accessible and it respects various accessibility recommendations, such as including sufficient color contrasts, labeling, and keyboard support.
@@ -34,9 +33,4 @@ Lighthouse-->
 - [Photo by Anna Shvets](https://www.pexels.com/photo/woman-in-black-blazer-3727474/)
 - [Photo by Anna Shvets](https://www.pexels.com/photo/woman-in-black-blazer-sitting-on-black-office-chair-3727464/)
 - Icon used for the favicon image is one of the [Homepage icons created by Hilmy Abiyyu A. - Flaticon](https://www.flaticon.com/free-icons/homepage)
-## Author
-- [GitHub](https://github.com/Haminimi)
-- [Exercism](https://exercism.org/profiles/Haminimi)
-- [LeetCode](https://leetcode.com/Haminimi/)
-- Email: haminimi.dev@gmail.com
 ## Happy coding!
